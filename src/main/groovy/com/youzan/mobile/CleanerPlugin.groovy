@@ -10,6 +10,10 @@ class CleanerPlugin implements Plugin<Project> {
 
     @Override
     void apply(Project project) {
-        project.extensions.create("cleaner", CleanerExtension)
+        project.extensions.create('resourceCleaner', CleanerExtension);
+        project.afterEvaluate {
+            project.android.lintOptions.xmlOutput = new File(project.buildDir, "lintResult.xml");
+        }
+        project.tasks.create('cleanResource', CleanTask)
     }
 }
