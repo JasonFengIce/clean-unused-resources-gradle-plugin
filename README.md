@@ -2,6 +2,8 @@
 
 A gradle plugin to remove unused resources including the entire file or a single entry.
 
+> AS2.0+ provides the function to [Remove Unused Resources](http://stackoverflow.com/questions/6373482/remove-all-unused-resources-from-an-android-project) :(
+
 The *lint* task reports `UnusedResources` as below:
 
 ```xml
