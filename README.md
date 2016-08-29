@@ -55,7 +55,7 @@ buildscript {
 apply plugin: 'com.youzan.mobile.cleaner'
 ```
 
-### Specify the exceptional files (*you don't have to do this*).
+### 3. Specify the exceptional files (*you don't have to do this*).
 ```groovy
 resourceCleaner {
     excludedFiles = [
@@ -65,9 +65,9 @@ resourceCleaner {
 }
 ```
 
-### Run the task.
+### 4. Run the task.
 ```bash
-$gradle cleanResource
+$./gradlew cleanResource
 ```
 
 Thanks
