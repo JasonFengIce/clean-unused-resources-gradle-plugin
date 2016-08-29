@@ -4,7 +4,7 @@ plugins {
 
 apply plugin: 'groovy'
 
-def versionName = '0.1.0'
+def versionName = '0.1.1'
 group 'com.youzan.mobile'
 version versionName
 

@@ -45,7 +45,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.3'
-        classpath 'com.youzan.mobile:cleaner-gradle-plugin:0.1.0'
+        classpath 'com.youzan.mobile:cleaner-gradle-plugin:0.1.1'
     }
 }
 ```
